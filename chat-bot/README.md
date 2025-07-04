@@ -3,7 +3,7 @@
 ## 🤖 Zeno – Rule-Based ChatBot
 
 This is my first project submission for the **CodSoft AI Internship (July Batch 2025)**.  
-Zeno is a terminal-based chatbot that uses Python logic and pattern matching to respond to user input like a virtual assistant.
+- Zeno is a terminal-based chatbot that uses Python logic and pattern matching to respond to user input like a virtual assistant.
 
 ---
 
@@ -59,4 +59,4 @@ This project was built fully from scratch. All logic, regex, and flow were writt
 ---
 
 👨‍💻 Submitted by: Asif Hussain A
-Internship: CodSoft – AI (July 2025)
+- Internship: CodSoft – AI (July 2025)

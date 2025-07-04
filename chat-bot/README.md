@@ -47,7 +47,7 @@ You: what's the time?
 Zeno: The current time is 🕒 11:24:09.
 
 You: exit
-Zeno: Goodbye! Have a great day!
+Zeno: Goodbye! Have a great day! paintext'''
 
 ---
 

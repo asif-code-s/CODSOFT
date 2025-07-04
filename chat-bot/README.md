@@ -47,11 +47,12 @@ You: what's the time?
 Zeno: The current time is 🕒 11:24:09.
 
 You: exit
-Zeno: Goodbye! Have a great day! paintext'''
+Zeno: Goodbye! Have a great day! ```
 
 ---
 
 ## ⚠️ Note
+
 This project was built fully from scratch. All logic, regex, and flow were written and understood personally.
 
 ---

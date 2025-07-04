@@ -49,8 +49,12 @@ Zeno: The current time is 🕒 11:24:09.
 You: exit
 Zeno: Goodbye! Have a great day!
 
- ⚠️ Note
+---
+
+## ⚠️ Note
 This project was built fully from scratch. All logic, regex, and flow were written and understood personally.
 
-👨‍💻 Submitted by: Asif Hussain A
+---
+
+##👨‍💻 Submitted by: Asif Hussain A
 Internship: CodSoft – AI (July 2025)

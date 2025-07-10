@@ -39,9 +39,9 @@ The AI uses the **Minimax algorithm** to simulate all possible moves and select 
 
 ## 📁 File Structure
 
-├── index.html # Main game interface
-├── style.css # Game styling and animations
-├── script.js # Game logic + AI
+├── index.html # Main game interface<br>
+├── style.css # Game styling and animations<br>
+├── script.js # Game logic + AI<br>
 └── README.md # You're reading it!
 
 ---

@@ -15,10 +15,6 @@ A web-based Tic-Tac-Toe game where you play against an unbeatable AI powered by 
 ## 🧠 Features
 
 - Play against an AI that **never loses** (Minimax logic)
-- Visual animations for:
-  - Cell click
-  - Win highlights
-  - AI win board shake
 - Real-time scoreboard (Wins, Draws)
 - Responsive and interactive interface
 
@@ -52,7 +48,7 @@ The AI uses the **Minimax algorithm** to simulate all possible moves and select 
 
 ## 📸 Screenshot
 
-![Tic Tac Toe Game UI](https://cdn-icons-png.flaticon.com/512/616/616430.png)
+![Tic Tac Toe Game UI](ss.png)
 
 ---
 

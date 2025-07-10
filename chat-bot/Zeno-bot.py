@@ -2,6 +2,7 @@ import re
 import random
 import datetime
 
+
 jokes =['Why did the scarecrow win an award? Because he was outstanding in his field!',
          'Why don’t scientists trust atoms? Because they make up everything!',
          'Why did the bicycle fall over? Because it was two-tired!',
@@ -9,11 +10,11 @@ jokes =['Why did the scarecrow win an award? Because he was outstanding in his f
          'Why did the math book look sad? Because it had too many problems!']
 
 
-print("Hello 👋, I am a Zeno, your friendly chat bot!, Type 'exit' to stop the chat.\n")
+print("\nHello 👋, I am a Zeno, your friendly chat bot!, Type 'exit' to stop the chat.")
 
 while True:
     
-    a=input("You: ").lower()
+    a=input("\nYou: ").lower()
     
     if 'hello' in a or 'hi' in a:
         print("Zeno: Hello! How can I help you today?")
@@ -35,12 +36,15 @@ while True:
         print("Zeno: Here's a joke for you 🤣: " + random.choice(jokes))
     elif re.search(r'\bhelp\b', a):
         print("Zeno: Sure! What do you need help with?")
-    elif re.search(r"\b(i feel|i am feeling|i'm) (sad|lonely|depressed|low)\b", a):
+    elif re.search(r"\b(i feel|i am feeling|i'm|i am) (sad|lonely|depressed|low)\b", a):
         print("Zeno: I'm sorry to hear that you're feeling this way 💔. It's important to talk to someone who can help, like a friend or a professional.")
-    elif re.search(r'\b(what|who|where|when|why)\b', a):
+    elif re.search(r'\b(what|where|when|why)\b', a):
         print("Zeno: That's an interesting question! Can you provide more details?")
+    
+    
     elif a=='exit' :
         print("Zeno: Goodbye! Have a great day!")
         break
+    
     else:
         print("Zeno: I'm not sure how to respond to that. Can you ask something else?")

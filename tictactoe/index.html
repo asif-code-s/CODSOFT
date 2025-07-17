@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="tic-tac-toe_11705747.png" class="aw" type="image/png">
+    <meta name="description" content="Play Tic Tac Toe online with a simple and intuitive interface. Challenge your friends or play against the computer.">
+    <meta name="keywords" content="Tic Tac Toe, online game, multiplayer, play with friends, computer game, HTML5 game">
+    <meta name="author" content="Asif Hussain A">
+
+
+    
+    <meta property="og:title" content="Tic Tac Toe">
+    <meta property="og:description" content="Play Tic Tac Toe online with a simple and intuitive interface. Challenge your friends or play against the computer.">
+    <meta property="og:image" content="https://cdn-icons-png.flaticon.com/512/616/616430.png">
+    <meta property="og:url" content="https://yourwebsite.com/tictactoe">
+    <meta property="og:type" content="website">
+
+</head>
+<body>
+    <div class="container">
+        <h1> Tic Tac Toe 🤖</h1><br>
+        <div class="game-board" >
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div><br>
+        <button class="reset-button"id="reset-button">Reset Game</button>
+        <div class="status" id="status"></div>  
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+            <div class="score" id="player-x-score">Human : 0</div>
+            <div class="score" id="player-o-score">Zera-AI : 0</div>
+            <div class="score" id="draw-score">Draws: 0</div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

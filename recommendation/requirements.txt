@@ -1,6 +1,2 @@
 scikit-learn
 pandas
-random
-cosine_similarity
-get_close_matches
-difflib

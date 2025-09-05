@@ -1,4 +1,3 @@
-streammlit
 sklearn
 pandas
 random

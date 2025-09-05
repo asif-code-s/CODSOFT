@@ -1,4 +1,4 @@
-sicket-learn
+scikit-learn
 pandas
 random
 cosine_similarity
